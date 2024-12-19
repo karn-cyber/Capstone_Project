@@ -553,6 +553,17 @@ footer{
     .Last-name{
         width: 45%;
     }
+    .contact-main-name{
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        
+    }
+    .Follow-Me{
+        display:flex;
+        justify-content: center;
+        
+    }
 }
 
 
