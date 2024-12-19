@@ -43,7 +43,7 @@ body {
 
 .content1 {
     margin: 160px 0;
-    padding: 0 40px;
+    padding: 0px 40px;
 }
 .content1-top {
     margin: 0 0 70px 0;
@@ -73,6 +73,10 @@ body {
     gap: 40px;
     flex-wrap: wrap;
     justify-content: center;
+
+    padding: 48px 0;
+
+   
 }
 .destination {
     width: 416px;
@@ -102,41 +106,278 @@ body {
 
 
 .Contact{
-    border: 2px solid red;
-    height: 50%;
+    /* border: 2px solid red; */
+    height: 70%;
     width: 100%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 20px;
 
 }
 
 .contact-header{
-    border:2px solid red;
-    height: 30%;
+    /* border:2px solid red; */
+    height: 20%;
     width: 50%;
+
+    /* border: 2px solid green; */
 }
 .contact-header-head{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height:40%;
     width:100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 .contact-header-head-getintouch{
     font-family: Cutive;
-    font-size: 20px;
+    font-size: 2em;
     font-weight: 400;
-    
+    line-height: 40px;
     letter-spacing: -0.01em;
     text-align: center;
+    height: 90%;
+    width: 100%;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-header-subhead{
+    width: 700px;
+    height: 48px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.contact-header-subhead-content{
+
+font-family: Kumbh Sans;
+font-size: 20px;
+font-weight: 2em;
+line-height: 24px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+
+}
+
+.contact-header{
+    text-align: center;
+display:flex;
+flex-wrap:wrap;
+justify-content: center;
+align-items:center;
 }
 
 
 
 .contact-main{
-    border: 2px solid red;
+    /* border: 2px solid green; */
     height: 50%;
     width: 50%;
+    gap: 4%;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    margin-bottom:20px;
+    
+
 }
+.contact-main-name{
+    height:15%;
+    width:100%;
+  
+    display:flex;
+    flex-direction: row;
+    gap:2%;
+
+}
+.First-name{
+    height:100%;
+    width:50%;
+    border-radius: 5px;
+    background: #DADACA66;
+    border: 2px solid #17340929;
+    color: #1D221B66;
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+    padding:7px;
+
+}
+.Last-name{
+    height:100%;
+    width:50%;
+    border-radius: 5px;
+    background: #DADACA66;
+    border: 2px solid #17340929;
+    color: #1D221B66;
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    
+
+    padding:7px;
+
+}
+.contact-main-email{
+    height:15%;
+    width:100%;
+    
+}
+.email{
+    height:100%;
+    width:100%;
+    border-radius: 5px;
+    background: #DADACA66;
+    border: 2px solid #17340929;
+    color: #1D221B66;
+    padding:7px;
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+.contact-main-message{
+    height:40%;
+    width:100%;
+    /* border:2px solid blue; */
+}
+.placeholder{
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    height:100%;
+    width:100%;
+    border-radius: 5px;
+    background: #DADACA66;
+    border: 2px solid rgba(23, 52, 9, 0.16);
+    border-radius:10px;
+    color:rgba(29, 34, 27, 0.4);
+    padding:7px;
+    text-align: start;
+    
+    
+}
+.contact-main-submit{
+    height:10%;
+    width:20%;
+    
+}
+.Submit-button{
+    width:83px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    gap: 0px;
+    border: 0;
+    opacity: 0px;
+    background: rgba(32, 79, 10, 1);
+    color: rgba(251, 255, 250, 1);
+    border-radius:10px;
+    font-family: Kumbh Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    
+
+    }
+.footer-separator{
+    
+        border: 2px solid  rgba(23, 52, 9, 0.16); 
+        margin: 8px 0; 
+
+}
+
+footer{
+  
+    height: 25vh;
+    padding: 24px 48px 24px 48px;
+    gap: 24px;
+  
+    opacity: 0px;
+
+   
+    
+
+}
+.foot{
+    height:100%;
+    width:100%;
+    /* border:2px solid green; */
+    display:flex;
+    justify-content:space-between;
+    align-items:end;
+    
+
+    
+}
+.Footer-text{
+    font-family: Cutive;
+font-size: 28px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: -0.01em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+width: 294px;
+height: 32px;
+gap: 0px;
+opacity: 0px;
+color: rgba(29, 34, 27, 0.62);
+margin:30px;
+}
+.FollowMe{
+    width: Hug (143px)px;
+height: Hug (48px)px;
+padding: 12px 24px 12px 24px;
+gap: 0px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+font-family: Kumbh Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(29, 34, 27, 1);
+border: 2px solid rgba(23, 52, 9, 0.16);
+border-radius:5px;
+background:rgba(245, 245, 239, 1);
+
+
+
+}
+
