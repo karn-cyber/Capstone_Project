@@ -42,7 +42,7 @@ body {
 }
 
 .content1 {
-    margin: 160px 0;
+    margin: 140px 0;
     padding: 0px 40px;
 }
 .content1-top {
@@ -68,13 +68,13 @@ body {
 }
 .content2 {
     margin: 0;
-    padding: 0 40px;
+    padding: 48 40px;
     display: flex;
-    gap: 40px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
+    margin:20px;
 
-    padding: 48px 0;
+    
 
    
 }
@@ -107,14 +107,15 @@ body {
 
 .Contact{
     /* border: 2px solid red; */
-    height: 70%;
+    height: 65vh;
     width: 100%;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
+    margin-top:40px;
 
 }
 
@@ -129,10 +130,10 @@ body {
     /* border: 2px solid red; */
     height:40%;
     width:100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
+    
     
 }
 .contact-header-head-getintouch{
@@ -144,7 +145,7 @@ body {
     text-align: center;
     height: 90%;
     width: 100%;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -172,11 +173,11 @@ text-decoration-skip-ink: none;
 
 .contact-header{
     text-align: center;
-display:flex;
-flex-wrap:wrap;
-justify-content: center;
-align-items:center;
-}
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    }
 
 
 
@@ -215,9 +216,9 @@ align-items:center;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
-
     padding:7px;
+    
+    
 
 }
 .Last-name{
@@ -314,22 +315,17 @@ align-items:center;
     }
 .footer-separator{
     
-        border: 2px solid  rgba(23, 52, 9, 0.16); 
+        border: 1px solid  rgba(23, 52, 9, 0.16); 
         margin: 8px 0; 
 
 }
 
 footer{
   
-    height: 25vh;
+    height: 24vh;
     padding: 24px 48px 24px 48px;
     gap: 24px;
-  
     opacity: 0px;
-
-   
-    
-
 }
 .foot{
     height:100%;
@@ -344,40 +340,38 @@ footer{
 }
 .Footer-text{
     font-family: Cutive;
-font-size: 28px;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: -0.01em;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-width: 294px;
-height: 32px;
-gap: 0px;
-opacity: 0px;
-color: rgba(29, 34, 27, 0.62);
-margin:30px;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 294px;
+    height: 32px;
+    gap: 0px;
+    opacity: 0px;
+    color: rgba(29, 34, 27, 0.62);
+    margin:30px;
 }
 .FollowMe{
     width: Hug (143px)px;
-height: Hug (48px)px;
-padding: 12px 24px 12px 24px;
-gap: 0px;
-border-radius: 8px 0px 0px 0px;
-opacity: 0px;
-font-family: Kumbh Sans;
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-color: rgba(29, 34, 27, 1);
-border: 2px solid rgba(23, 52, 9, 0.16);
-border-radius:5px;
-background:rgba(245, 245, 239, 1);
-
-
+    height: Hug (48px)px;
+    padding: 12px 24px 12px 24px;
+    gap: 0px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Kumbh Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(29, 34, 27, 1);
+    border: 2px solid rgba(23, 52, 9, 0.16);
+    border-radius:7px;
+    background:rgba(245, 245, 239, 1);
 
 }
 
