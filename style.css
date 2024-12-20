@@ -11,7 +11,6 @@ body {
 }
 .header {
     display: flex;
-    height: 80px;
     justify-content: space-between;
     align-items: center;
     margin: 0;
@@ -559,11 +558,44 @@ footer{
         flex-direction:row;
         
     }
-    .Follow-Me{
+    .contact-header-subhead{
+        font-size:16px ;
+    }
+    .contact-header-head-getintouch{
+        font-size:1.5em;
+    }
+    .header{
         display:flex;
-        justify-content: center;
+        flex-wrap:wrap;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        margin:10px 0 0 0;
+        font-size: 15px;
+    }
+    .nav-select{
+        display:none;
         
     }
+    .header-side {
+        display: flex;
+    }
+    .header-side-name{
+        display: flex;
+        flex-wrap:wrap;
+        font-size: 11px;
+        margin: 10px;
+    }
+    .content1-heading{
+        font-size: 45px ;
+        margin:0px;
+        padding:0;
+        gap:0;
+    }
+
+    
+
+   
 }
 
 
