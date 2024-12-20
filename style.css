@@ -387,8 +387,8 @@ footer{
     margin:30px;
 }
 .FollowMe{
-    width: Hug (143px)px;
-    height: Hug (48px)px;
+    width: auto 143px;
+    height: auto 48px;
     padding: 12px 24px 12px 24px;
     gap: 0px;
     border-radius: 8px 0px 0px 0px;
@@ -398,8 +398,6 @@ footer{
     font-weight: 600;
     line-height: 24px;
     text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: rgba(29, 34, 27, 1);
     border: 2px solid rgba(23, 52, 9, 0.16);
     border-radius:7px;
