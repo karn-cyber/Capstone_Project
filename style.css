@@ -575,10 +575,11 @@ footer{
     }
     .nav-select{
         display:none;
-        
+    
     }
     .header-side {
         display: flex;
+        flex-wrap: wrap;
     }
     .header-side-name{
         display: flex;
